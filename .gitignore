@@ -1,0 +1,34 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+
+# Build directories
+/build/
+/dist/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Nextcloud specific
+/appinfo/signature.json
+/coverage/
+.phpunit.result.cache
